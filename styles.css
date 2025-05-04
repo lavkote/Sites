@@ -1,0 +1,135 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+header {
+  height: 80px;
+  text-align: center;
+  align-content: center;
+  font-weight: 700;
+  font-size: 35px;
+  background-color: white;
+  color: #817170;
+}
+
+body {
+  background-color: #817170;
+  color: white;
+}
+
+.inputs {
+  padding: 50px 0px 30px 0px;
+  align-items: center;
+  text-align: center;
+}
+
+.name,
+.lastname {
+  width: 300px;
+  height: 50px;
+  border: 3px solid white;
+  background-color: #817170;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+input::placeholder {
+  font-size: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255);
+}
+
+.name:valid,
+.lastname:valid {
+  font-size: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255);
+}
+
+input {
+  outline: none;
+  text-align: center;
+  background-color: #817170;
+  border: 3px solid white;
+}
+
+.checks {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-left: 150px;
+  height: 300px;
+}
+
+label {
+  font-size: 23px;
+  width: 250px;
+  padding: 20px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  padding-bottom: 5px;
+}
+
+.radio {
+  width: 25px;
+  height: 25px;
+  appearance: none;
+  cursor: pointer;
+}
+
+.radio:checked {
+  background-color: #583937;
+}
+
+.num {
+  width: 60px;
+  height: 50px;
+}
+
+.num::-webkit-inner-spin-button,
+.num::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.num:valid {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+.res {
+  text-align: center;
+}
+p {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.result {
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.btn {
+  font-size: 30px;
+  width: 280px;
+  height: 50px;
+  color: #817170;
+  background-color: white;
+  border: none;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.btn:active {
+  color: white;
+  background-color: #817170;
+  border: 3px solid white;
+}
