@@ -1,0 +1,48 @@
+body {
+  font-family: Overpass;
+  background-color: #141519;
+  color: #d9dbdc;
+}
+main {
+  width: 350px;
+  padding: 40px;
+  background-color: #1e252f;
+  border-radius: 30px;
+  margin: auto;
+  margin-top: 10%;
+}
+.grades {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  margin: 30px 0;
+}
+.circle {
+  align-content: center;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 100%;
+  background-color: #262f38;
+  color: #d9dbdc;
+}
+div.circle {
+  background-image: url("images/icon-star.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+p {
+  color: #9199a4;
+}
+#btn {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+  font-family: Overpass;
+  background-color: hsl(25, 97%, 53%);
+  color: #000;
+  text-transform: uppercase;
+  font-size: 16px;
+}
